@@ -4,6 +4,10 @@ $ git add -f dir (提交打开的目录下面的所有文件)
 
 $ git add --all (提交打开的目录下面的所有目录和文件)
 
+$ git add filename (提交文件)
+
+$ git add "filename" (提交带有特殊字符的文件)
+
 $ git commit -m "备注" (提交新增的文件)
 
 $ git commit -a -m "备注" (提交内容有变化的文件)
