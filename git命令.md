@@ -60,14 +60,14 @@ $ ssh-keygen -t rsa -C "iamaant100@163.com"
 使用默认设置，一路回车即可；
 根据提示的"saved in 路径"，在该路径下会生成.ssh的文件夹，里面有id_rsa和id_rsa.pub两个文件；
 登陆https://github.com/settings/ssh；
-点击Add SSH key，把id_rsa.pub文件的内容直接复制到Key文本框中，Title内容自定义，保存。
+点击New SSH key，把id_rsa.pub文件的内容直接复制到Key文本框中，Title内容自定义，保存。
 ```
 
 4. 测试是否能够正确链接到github
 ```
 $ ssh -T git@github.com
 显示出下列信息表示连接成功
-Hi username! You've successfully authenticated, but GitHub does not provide shell access.
+Hi sunnyzhy! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
 5. 创建本地仓库
