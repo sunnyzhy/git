@@ -98,7 +98,5 @@ $ git push -u origin master
 
 # 还原本地未提交的代码
 ```
-$ git rm --cached
-
-$ git checkout *
+$ git checkout . && git clean -xdf
 ```
