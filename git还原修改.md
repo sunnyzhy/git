@@ -10,7 +10,7 @@
    ```bash
    git log --oneline            // 可以省略
    git reset HEAD               // 回退到当前版本
-   git checkout -- aaa.html
+   git checkout -- xxx.java
    ```
 
 - 修改了文件，并提交到仓库区（即：编辑之后, 进行 git add 并且 git commit -m "xxx"）
